@@ -1,0 +1,15 @@
+.git
+.github
+node_modules
+dist
+.expo
+web-build
+*.md
+!README.md
+tests/
+__tests__/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+.env.local

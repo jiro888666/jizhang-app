@@ -1,0 +1,47 @@
+{
+  "name": "jizhang-app",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:dev": "eas build --profile development --platform all",
+    "build:preview": "eas build --profile preview --platform all",
+    "build:preview:android": "eas build --profile preview --platform android",
+    "build:preview:ios": "eas build --profile preview --platform ios",
+    "build:prod": "eas build --profile production --platform all",
+    "submit": "eas submit --platform all",
+    "update": "eas update --auto"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/datetimepicker": "8.6.0",
+    "date-fns": "^4.1.0",
+    "expo": "~55.0.7",
+    "expo-constants": "~55.0.9",
+    "expo-font": "^55.0.4",
+    "expo-haptics": "~55.0.9",
+    "expo-linear-gradient": "~55.0.9",
+    "expo-linking": "~55.0.8",
+    "expo-router": "~55.0.7",
+    "expo-status-bar": "~55.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-svg": "15.15.3",
+    "react-native-web": "^0.21.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "babel-preset-expo": "^55.0.12",
+    "nativewind": "^4.2.3",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
