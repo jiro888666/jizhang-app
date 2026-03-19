@@ -34,6 +34,11 @@
     "experiments": {
       "typedRoutes": true
     },
-    "scheme": "jizhang-app"
+    "scheme": "jizhang-app",
+    "extra": {
+      "eas": {
+        "projectId": "1863f2cd-40e6-402c-9170-63ee135854ca"
+      }
+    }
   }
 }

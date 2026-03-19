@@ -1,28 +1,6 @@
 name: EAS Build
 on:
   workflow_dispatch:
-    inputs:
-      platform:
-        description: 'Platform to build'
-        required: true
-        default: 'all'
-        type: choice
-        options:
-          - all
-          - android
-          - ios
-      profile:
-        description: 'Build profile'
-        required: true
-        default: 'preview'
-        type: choice
-        options:
-          - development
-          - preview
-          - production
-  push:
-    branches:
-      - main
 
 jobs:
   build:

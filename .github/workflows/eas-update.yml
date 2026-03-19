@@ -1,11 +1,6 @@
 name: EAS Update (OTA)
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**.md'
-      - '.github/**'
+  workflow_dispatch:
 
 jobs:
   update:
